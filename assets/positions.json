@@ -1,0 +1,72 @@
+---
+
+## 2 `positions.json` (upload in project root or `/assets/`)
+
+```json
+{
+  "scene1": {
+    "voiceOvers": {
+      "1.f-voice-over-1.png": { "x": "59%",  "y": "4%",  "w": "16%", "h": "24%" },
+      "1.f-voice-over-2.png": { "x": "27%", "y": "5%",  "w": "27%", "h": "13%" },
+      "1.f-voice-over-3.png": { "x": "5%", "y": "6%",  "w": "18%", "h": "19%" },
+      "1.f-voice-over-4.png": { "x": "50%", "y": "62%", "w": "40%", "h": "20%" }
+    },
+    "hover-overlays": {
+      "1.b-hover-box": { "x": "1%", "y": "16%", "w": "17%", "h": "39%" },
+      "1.c-hover-box": { "x": "37%", "y": "20%", "w": "15%", "h": "42%" },
+      "1.d-hover-box": { "x": "80%", "y": "26%", "w": "18%", "h": "34%" }
+    },
+    "graffiti": {
+      "1.b-toaster-price.png":   { "x": "7%", "y": "50%", "w": "15%", "h": "22%" },
+      "1.b-cross-out.png":         { "x": "5%", "y": "44%", "w": "9%", "h": "7%" },
+      "1.c-bicycle-price.png":    { "x": "49%", "y": "36%", "w": "15%", "h": "18%" },
+      "1.c-cross-out2.png":         { "x": "41%", "y": "49%", "w": "9%", "h": "9%" },
+      "1.d-tag-think-sats.png":   { "x": "83%", "y": "31%", "w": "15%", "h": "25%" }
+    }
+  },
+
+  "scene2": {
+    "hotspots": {
+      "DEBUG":      { "x": "65%", "y": "18%", "w": "17%", "h": "14%" },
+      "SPRAY":   { "x": "65%", "y": "26%", "w": "17%", "h": "4%" },
+      "CONNECT": { "x": "65%", "y": "34%", "w": "17%", "h": "4%" },
+      "ASSEMBLE": { "x": "65%", "y": "42%", "w": "17%", "h": "4%" }
+    },
+    "monitor": { "x": "22%", "y": "18%", "w": "33%", "h": "31%" },
+    "text-box": { "x": "20%", "y": "74%", "w": "64%", "h": "16%" }
+  },
+
+  "scene3": {
+    "billboard": { "x": "37%", "y": "27%", "w": "33%", "h": "30%" },
+
+    "hotspots": {
+      "satellite": {"x": "73%", "y": "2%", "w": "21%", "h": "26%"},
+      "vending-machine": {"x": "18%", "y": "48%", "w": "16%", "h": "27%"},
+      "payphone": {"x": "77%", "y": "47%", "w": "12%", "h": "20%"},
+      "sports-car": {"x": "49%", "y": "65%", "w": "23%", "h": "31%"}
+    },
+
+    "logo-overlays": {
+      "X-logo": {
+        "overlay": "3.b-logo-x.png",
+        "href": "https://x.com/SatSpray",
+        "x": "73%", "y": "17%", "w": "7%", "h": "13%"
+      },
+      "Medium-logo": {
+        "overlay": "3.b-logo-medium.png",
+        "href": "https://medium.com/@spraytoshi",
+        "x": "25%", "y": "59%", "w": "10%", "h": "16%"
+      },
+      "Discord-logo": {
+        "overlay": "3.b-logo-discord.png",
+        "href": "https://discord.gg/jR7ufK9XG4",
+        "x": "81%", "y": "46%", "w": "8%", "h": "13%"
+      },
+      "Instagram": {
+        "overlay": "3.b-logo-insta.png",
+        "href": "https://instagram.com/SatSpray",
+        "x": "47%", "y": "86%", "w": "15%", "h": "12%"
+      }
+    }
+  }
+}

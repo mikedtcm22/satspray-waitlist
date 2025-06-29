@@ -1,0 +1,24 @@
+{
+  "scene2": {
+    "typewriter": [
+      "In the hush of midnight terminals, where code murmurs compliance",
+      "I lace Sats through hidden seams. A secret blooms on every screen.",
+      "Each patch a hidden verse, each debug a heartbeat of truth.",
+      "SatSpray sings our underground hymn. Anon, can you hear it?"
+    ],
+    "charSpeed": 40,          // ms per character (example)
+    "pauseBetweenLines": 2000 // ms to wait after each line
+  },
+
+  "scene3": {
+    "typewriter": [
+      "Neon sunrise spills across the grid.\nHelp script the ledger that outshines empire.",
+      "Spray sats on every price tag.\nTurn propaganda into programmable hope.",
+      "Cabals sync in milliseconds, weaving color into consensus.\nYour keystroke = one pixel in a brighter skyline.",
+      "The canvas is live, the future editable.\nStep forward—write it in light."
+    ],
+    "sign-up": ["Badge earned, specter: your sig just rippled through the mempool.\nStand by, your spray rig is calibrating."],
+    "charSpeed": 70,
+    "pauseBetweenLines": 2000
+  }
+}
